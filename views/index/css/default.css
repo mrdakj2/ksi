@@ -1,0 +1,52 @@
+#container {
+	margin: 20px auto;
+	width: 80%;
+	overflow: auto;
+}
+
+#left {
+	text-align: justify;
+	padding: 10px;
+	float: left;
+	width: 50%;
+}
+
+#right {
+	float: right;
+	padding: 10px;
+	max-width: 40%;
+	display: block;
+}
+
+#right img {
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+@media screen and (max-width: 650px) {
+
+	#container {
+		margin: 20px auto;
+		width: 100%;
+		overflow: auto;
+	}
+
+   #left {
+		width: 90%;
+		margin: auto;
+		float: none;
+    }
+
+
+   #right {
+		width: 90%;
+		max-width: none;
+		margin: auto;
+		float: none;
+    }
+
+    #right img {
+    	display: block;
+    	margin: auto;
+    }
+}

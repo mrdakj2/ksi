@@ -1,0 +1,16 @@
+h4 {
+	font-size: 160%;
+	color:#127AC4;
+	margin:5px 0;
+}
+
+h6 {
+	font-size:100%;
+	color:#3d3d3d;
+	margin: 5px 0;
+}
+
+p {
+	margin:10px 0;
+	max-width:70%;
+}

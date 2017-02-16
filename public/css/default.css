@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+body {
+	margin: 20px auto;
+	width: 80%;
+	font-size: 110%;
+}
+
+header {
+	margin: auto;
+}
+
+h1 {
+	color: #127AC4;
+	font-size: 150%;
+	margin: 10px auto;
+	text-align: center;
+}
+
+ul li {
+	display: inline-block;
+	padding: 5px;
+}
+
+ul {
+
+	text-align: center;
+}
+
+
+a:active, a:visited, a:link {
+	text-decoration: none;
+	color:#7C777D;
+}
+
+a:hover {
+	color:#127AC4;
+}
+
+footer {
+	background: green;
+}
+
+.clear_float {
+	clear:both;
+}
+
+@media screen and (min-width: 650px) and (max-width: 900px) {
+    body {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    body {
+        width: 90%;
+        font-size: 130%;
+    }
+
+	
+
+    ul li a {
+    	font-size: 90%;
+    }
+
+}
+
+@media screen and (min-width: 450px) and (max-width: 550px) {
+
+	ul {
+		width: 90%;
+		margin: auto;
+	}
+
+	ul li:nth-child(odd) {
+		width: 55%;
+		float: left;
+		text-align: left;
+	}
+
+	ul li:nth-child(even)  {
+		width: 35%;
+		float: right;
+		text-align: right;
+	}
+
+}
+
+@media screen and  (max-width: 450px) {
+	body {
+		width: 100%;
+	}
+
+	ul li {
+		width: 100%;
+	}
+
+	h1 {
+		font-size: 110%;
+	}
+}
