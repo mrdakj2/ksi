@@ -30,7 +30,7 @@
 		<li><a href="<?php echo URL;?>index">Pocetna</a></li>
 		<li><a href="<?php echo URL;?>activities">Aktivnosti</a></li>
 		<li><a href="<?php echo URL;?>suggestActivity">Predlozi aktivnosti</a></li>
-		<li style="border-right: none;"><a href="<?php echo URL;?>arhiva">Arhiva</a></li>
+		<li style="border-right: none;"><a href="<?php echo URL;?>archives">Arhiva</a></li>
 		<?php if (Session::get('loggedIn') == 1) : ?>
 		<a href="<?php echo URL;?>dashboard/logout">Logout</a>
 		<?php else: ?>
