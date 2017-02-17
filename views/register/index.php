@@ -1,5 +1,5 @@
 <form action="register/run" method="post">
-	<h1>Register Form</h1>
+	<h1>Registruj se</h1>
 	<div>
 		<input type="text" placeholder="Username" required="" id="username" name="username"/>
 	</div>
@@ -7,8 +7,8 @@
 		<input type="password" placeholder="Password" required="" id="password" name="password"/>
 	</div>
 	<div id="options">
-		<input type="submit" name="submit" value="Register" />
-		<a href="<?php echo URL;?>login">Login</a>
+		<input type="submit" name="submit" value="Registruj se" />
+		<a href="<?php echo URL;?>login">Prijavi se</a>
 	</div>
 </form>
 

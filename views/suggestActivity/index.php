@@ -1,7 +1,7 @@
 <form action="suggestActivity/run" method="POST">
-	<h1>Suggest activity Form</h1>
+	<h1>Predloži aktivnost</h1>
 	<div>
-		<input type="text" placeholder="name" required="" id="username" name="ime"/>
+		<input type="text" placeholder="ime" required="" id="username" name="ime"/>
 	</div>
 	<div>
 		<input type="text" placeholder="email" name="email">

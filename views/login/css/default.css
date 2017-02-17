@@ -1,7 +1,11 @@
 form {
-	margin:10px auto;
+	margin:25px auto;
 }
 
+
+form h1 {
+	font-weight: normal;
+}
 
  form input[type="text"],
  form input[type="password"] {
@@ -23,10 +27,10 @@ form {
 	background: #eae7e7 url(http://cssdeck.com/uploads/media/items/8/8bcLQqF.png) no-repeat;
 	border: 1px solid #c8c8c8;
 	color: #777;
-	font: 13px Helvetica, Arial, sans-serif;
+	font: 16px Helvetica, Arial, sans-serif;
 	display: block;
 	margin:10px auto;
-	padding: 15px 10px 15px 40px;
+	padding: 10px 10px 15px 40px;
 	width: 40%;
 }
 form input[type="text"]:focus,

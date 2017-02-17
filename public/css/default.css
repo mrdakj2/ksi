@@ -18,12 +18,13 @@ h1 {
 
 ul li {
 	display: inline-block;
-	padding: 5px;
+	padding: 12px;
 }
 
 ul {
-
+	margin:auto;
 	text-align: center;
+	padding: 0px;
 }
 
 
