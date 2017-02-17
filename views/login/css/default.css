@@ -61,3 +61,36 @@ form input[type="submit"] {
 	width:30%;
 	padding: 5px;
 }
+
+@media screen and (min-width: 500px) and (max-width: 700px) {
+
+
+	form input[type="text"],
+ 	form input[type="password"] {
+ 		width: 60%;
+ 	}
+
+ 	#options {
+ 		width: 68%;
+ 	}
+
+ 	form input[type="submit"] {
+		width:50%;
+	}
+
+}
+
+@media screen and (max-width: 500px) {
+	form input[type="text"],
+ 	form input[type="password"] {
+ 		width: 80%;
+ 	}
+
+ 	#options {
+ 		width: 92%;
+ 	}
+
+ 	form input[type="submit"] {
+		width:40%;
+	}
+}

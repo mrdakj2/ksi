@@ -20,4 +20,6 @@
 	</div>
 </form>
 
+<div class="clear_float"></div>
+
 	

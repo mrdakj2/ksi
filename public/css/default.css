@@ -9,6 +9,10 @@ header {
 	margin: auto;
 }
 
+header p {
+  margin-left: 10px;
+}
+
 h1 {
 	color: #127AC4;
 	font-size: 150%;
@@ -55,57 +59,81 @@ footer img {
 	clear:both;
 }
 
-@media screen and (min-width: 650px) and (max-width: 900px) {
-    body {
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  opacity: 0.75;
+}
+
+ul.topnav li { text-align: center;}
+
+ul.topnav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 12px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+ul.topnav li a:hover {background-color: #555;}
+
+ul.topnav li.icon {display: none;}
+
+ul.topnav li#meni {
+  display: none;
+}
+
+
+@media screen and (min-width:900px) and (max-width: 1200px) {
+	body {
+		width: 95%;
+	}
+
+	ul.topnav li a {
+		padding: 14px 10px;
+	}
+
+  
+}
+
+
+@media screen and (max-width:900px) {
+  body {
         width: 100%;
     }
+
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+
+  ul.topnav li { float:left;}
+
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+
+  ul.topnav li#meni {
+    display: block;
+    text-align: left;
+  }
 }
 
-@media screen and (max-width: 650px) {
-    body {
-        width: 90%;
-        font-size: 130%;
-    }
-
-	
-
-    ul li a {
-    	font-size: 90%;
-    }
-
-}
-
-@media screen and (min-width: 450px) and (max-width: 550px) {
-
-	ul {
-		width: 90%;
-		margin: auto;
-	}
-
-	ul li:nth-child(odd) {
-		width: 55%;
-		float: left;
-		text-align: left;
-	}
-
-	ul li:nth-child(even)  {
-		width: 35%;
-		float: right;
-		text-align: right;
-	}
-
-}
-
-@media screen and  (max-width: 450px) {
-	body {
-		width: 100%;
-	}
-
-	ul li {
-		width: 100%;
-	}
-
-	h1 {
-		font-size: 110%;
-	}
-}

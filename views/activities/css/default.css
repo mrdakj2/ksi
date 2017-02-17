@@ -11,10 +11,20 @@ h6 {
 }
 
 p {
-	margin:10px 0;
-	max-width:70%;
+	padding: 0px;
 }
 
 .field {
 	margin-left: 50px;
+	margin-top:30px;
+}
+
+@media screen  and (max-width: 500px) { 
+	.field {
+		margin-left: 10px;
+	}
+
+	p {
+		max-width: 90%;
+	}
 }
